@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_biankuang_palmap_qiehuan_button"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/navigate_palmap_img_button_top"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@+id/wheel_view_test"
+            android:background="#ffffff"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ico_map_up2x" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="1"
+
+            android:gravity="center"/>
+        <ImageView
+            android:id="@+id/navigate_palmap_img_button_bottom"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@+id/wheel_view_test"
+            android:background="#ffffff"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ico_map_down2x" />
+    </LinearLayout>
+</LinearLayout>
